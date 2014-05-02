@@ -1,0 +1,1 @@
+{"version":3,"file":"database.js","sources":["/Users/courey/Documents/code/pet-sitting/public/js/es6/database.es6.js"],"names":[],"mappings":"AACI,GAAA,CAAA,IAAI,EAAG,GAAE,CAAC","sourcesContent":["/* exported pets*/\nvar pets = [];\n"]}
