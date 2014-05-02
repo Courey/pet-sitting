@@ -2,15 +2,33 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title JS++
+    title Pet Sitter
     link(rel='stylesheet', href='./css/app.css')
   body
-    h1 JS++
+    header
+      h1 Sit on your pet!
+
+    #controls
+      select#gender
+        option male
+        option female
+      select#species
+        option(value='strongbad.png') Strong Bad
+        option(value='octokitty.png') octokitty
+        option(value='penguin.png') penguin
+        option(value='unicorn.png') unicorn
+
+      input#name(type='text', placeholder='name')
+      input#age(type='text', placeholder='age')
+      button#button Add Pet
+
+    #pets
 
     script(src='./js/vendor/traceur.js')
     script(src='./js/vendor/experimental.js')
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/vendor/lodash-2.4.1.js')
     script(src='./js/vendor/moment-2.6.0.js')
-    script(src='./js/es5/main.js')
+    script(src='./js/es6/database.js')
+    script(src='./js/es6/pet.js')
     script(src='./js/es6/main.js')
