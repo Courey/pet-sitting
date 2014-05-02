@@ -32,6 +32,7 @@ class Pet{
     if(this.mood >= 10){this.mood = 10;}
     if(this.full <= 0 || this.health <= 0){
       $(`.pet[data-name =${this.name}]`).find('.image').find('img').attr('src', '../media/dead.png');
+      $('#sound')[0].play();
     }
   }
 
