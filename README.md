@@ -1,10 +1,7 @@
-# client-template
+# Pet Sitting Game
 
-Serves as a template for client JavaScript applications.
+This game lets you add pets with random health, hunger, and mood status levels.
+You can feed your pet, make it sleep, or play with it.
+If it's health level or hunger level reaches 0, it dies.
 
-It uses:
-* Jade
-* Less
-* Grunt
-* JSHint
-* Node.js
+!(http://./app/media/example.png)
