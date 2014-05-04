@@ -2,7 +2,7 @@ var Pet = function Pet(age, species, speciesImg, gender) {
   "use strict";
   var name = arguments[4] !== (void 0) ? arguments[4] : 'pet';
   this.age = age * 1;
-  this.speciesImg = ("../media/" + speciesImg);
+  this.speciesImg = ("./media/" + speciesImg);
   this.species = species;
   this.gender = gender;
   this.name = name;
